@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Campeonato Brasileiro 2024</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div>
+        <button onclick="document.getElementById('primeiralinha').style.background = ('green')">
+            Mude a Cor da primeira Linha</button>
+        <button onclick="document.getElementById('primeiralinha').style.background = ('white')">
+                Voltar cor primeira Linha</button>
+        <button onclick="document.getElementById('data').innerHTML = Date()">
+            Data e Hora</button>
+            <button onclick="document.getElementById('data').style.fontSize = '35px'">
+                Aumentar Letra</button>
+            <button onclick="document.getElementById('data').style.fontSize = '16px'">
+                    Diminuir Letra</button>
+    </div>
+    <div>
+        
+    </div>
+
+    <h1>Tabela do Campeonato Brasileiro 2024</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Imagem</th>
+                <th>Posição</th>
+                <th>Time</th>
+                <th>Pontos</th>
+                <th>Qtd. Jogos</th>
+                <th>Qtd. Vitórias</th>
+                <th>Qtd. Derrotas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="primeiralinha">
+                <td><img src="https://logodetimes.com/wp-content/uploads/botafogo.png" alt="Botafogo" width="100" height="60"></td>
+                <td>1</td>
+                <td><a href="https://www.botafogo.com.br" target="_blank">Botafogo</a></td>
+                <td>79</td>
+                <td>10</td>
+                <td>9</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td><img src="https://images.seeklogo.com/logo-png/20/1/palmeiras-logo-png_seeklogo-204522.png" alt="Palmeiras" width="50" height="50"></td>
+                <td>2</td>
+                <td><a href="https://www.palmeiras.com.br" target="_blank">Palmeiras</a></td>
+                <td>73</td>
+                <td>10</td>
+                <td>8</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td><img src="https://images.seeklogo.com/logo-png/3/1/clube-de-regatas-do-flamengo-logo-png_seeklogo-32413.png" alt="Flamengo" width="50" height="50"></td>
+                <td>3</td>
+                <td><a href="https://www.flamengo.com.br" target="_blank">Flamengo</a></td>
+                <td>70</td>
+                <td>10</td>
+                <td>7</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <table>
+            <tr>
+                <td id="data"></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

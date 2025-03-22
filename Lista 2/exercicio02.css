@@ -1,0 +1,34 @@
+/* Exercício 2
+Troque o estilo da borda das tabelas (border-style).
+Faça testes com as opções dotted, dashed e solid.
+Link: https://www.w3schools.com/css/css_border.asp */
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    text-align: center;
+}    
+    
+
+th, td {
+     border: 1px solid black; 
+    padding: 10px;
+    
+}
+
+th {
+    
+    background-color: #f2f2f2;
+}
+
+.dotted{
+    border-style: dotted;
+}
+
+.dashed{
+    border-style: dashed;
+}
+
+.solid{
+    border-style: solid;
+}

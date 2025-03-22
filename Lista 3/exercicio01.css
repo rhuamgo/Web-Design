@@ -1,0 +1,16 @@
+/* Exercício 1
+Utilize os exercícios que realizamos na aula anterior, mas agora separe o CSS em outro
+arquivo. Coloque os arquivos CSS em um diretório separado. */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+th {
+    background-color: #f2f2f2;
+}

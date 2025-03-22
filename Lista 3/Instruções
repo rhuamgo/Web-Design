@@ -1,0 +1,13 @@
+1. A partir da tabela, crie 2 botões que alteram a cor de uma linha.
+O primeiro botão deve chamar uma função javascript.
+A função deve estar definida em um arquivo separado
+O segundo botão deve chamar outra função javascript passando como parâmetro
+o ID do elemento que será alterado.
+A função deve estar definida em um arquivo separado
+Utilize o evento onclick da tag button
+
+2. Utilize o evento onmouseover e onmouseout aplicados em uma linha (tag <tr>) para
+alterar a cor
+
+3. Utilize a propriedade innerHTML para capturar o nome do time e exiba através de um
+alert e no console
