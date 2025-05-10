@@ -1,0 +1,72 @@
+body {
+    background: url('img/fundo.png') no-repeat  center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+  header {
+
+    padding: 10px 20px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+ 
+  }
+
+  nav a {    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    width: 100%;
+    margin: 9%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: flex;
+}
+.card{
+  display: inline-block;
+  margin: 5%;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  
+} 
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+ 
+}
+.borda{
+  background-color: white;
+  border-radius: 30px;
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin: 15%;
+  
+}
+
+.form-group{
+  margin: 2%;
+
+}
+
+.btn{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
